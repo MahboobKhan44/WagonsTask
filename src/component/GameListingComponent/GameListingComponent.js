@@ -14,7 +14,7 @@ const GameListingComponent = ({ item, navigation }) => {
         <Text style={styles.titleFont}>Title:  {item.title}</Text>
         <Text style={styles.platformFont}>Platform:  {item.platform}</Text>
         <Text style={styles.platformFont}>Score:  {item.score}</Text>
-        <Text style={styles.platformFont}>Game:  {item.genre}</Text>
+        <Text style={styles.platformFont}>Game:  {item.game}</Text>
         <Text style={styles.platformFont}>Editor_Choice:  {item.editors_choice}</Text>
       </View>
 

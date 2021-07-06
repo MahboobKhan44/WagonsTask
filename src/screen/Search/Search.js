@@ -14,7 +14,7 @@ const Search = () => {
   const searchGameName = (text) => {
     var sort = text.toLowerCase();
     const data = Data.filter((e) => {
-      return e.title.toLowerCase().includes(sort);
+      return e.game.toLowerCase().includes(sort);
     });
     if (text.length > 0) {
       setShow(true)
